@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Monoton&family=Roboto+Condensed&display=swap');
+
+*{
+scroll-behavior: smooth;      
+}
+
+
+body{  
+    color: rgb(0, 0, 0);
+    background-color: black;    
+  
+}
+
+#home:hover{
+ background-color: blue;
+ padding: 8px;
+}
+
+#reservas:hover{
+ background-color: green;
+padding: 8px;
+}
+
+#menu:hover{
+background-color: yellow;
+padding: 8px;
+}
+
+#cursos:hover{
+    background-color: orange;
+    padding: 8px;
+}
+
+.nav{
+    display: flex;
+	background-color: black;
+	position: sticky;
+	top: 0px;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+	font-family:'Monoton', cursive;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav img {
+   display: flex;
+	width: 90px;
+	justify-content: space-between;
+}
+
+.foto{
+    width: 100%;
+    height: 200px;    
+	margin-left: 2%;	
+}
+
+
+.contenedor .foto img {
+   height: 200px; 
+}
+
+.info {
+   display: flex;
+   width: 100%;
+   flex-direction:row;
+   justify-content: center;
+   margin: 10px;
+}
+
+.columna{
+    width: 48%;
+    display: flex;
+    flex-direction:row;
+    margin-left: 60px;
+}
+
+.columna img {
+    padding: 8px;
+
+}
+
+.columna p {
+    padding: 2px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: floralwhite;
+}
+
+.requi1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.requi{
+    width: 48%;
+    display: flex;
+    flex-direction:row;
+    padding: 3px;
+    margin-left: 60px;
+}
+
+.requi img {
+    padding-right: 30px;
+}
+
+.info .requi2  a {
+    font-size: 24px;
+    margin: 10px;
+    font-family: 'Roboto Condensed', sans-serif, cursive;
+    color: floralwhite;
+}
+
+.info .requi3  a {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: rgb(174, 2, 2);
+    font-family: 'Roboto Condensed', sans-serif,;
+}
+
+.reservas p {
+    font-family: 'Roboto Condensed', sans-serif, cursive;
+    color: floralwhite;
+    font-size: 18 px;
+}
+
+footer{
+	display: flex;
+	height: 100px;
+}
+
+footer a {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family:'Monoton', cursive;
+}
+
+#pie:hover{
+    background-color: rgb(158, 9, 39);
+}
+
+.contenedor .imginicio .felizabar p {
+    color: #000000;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;	
+}
+
+.contenedor .imginicio {
+	height: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.contenedor .imginicio .imgini img {
+    height: 200px;
+    width: 298px;
+    margin: 20px;
+}
+
+.contenedor .imginicio .imgini {
+    display: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-left: 150px;
+}
+
+.contenedor {
+	background-image: url("../feliza/imagenessitio/fondo1.png");
+}
+
+.secundario {
+    display: flex;
+    width: 100%;
+   justify-content: center;
+}
+
+.secundario img {
+    width: 20%;
+    height: auto;
+    padding: 1%;
+}
+
+.reser {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.reser img {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.reser2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.reser2 img {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.gracias{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.iconomenu {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.principal .feliza {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: crimson;
+    font-family:  Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+
+.principalm {
+	background-image: url("../feliza/imagenessitio/fondo.png");
+}
+
+.principal .cursos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 80%;
+}
+
+.principal .cursosimg img{
+    height: 300px;
+    padding: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.menu .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: floralwhite;
+}
+ 
+.menu1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.menu1 .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 20px;
+    color: floralwhite;
+}
+
+.menu1 .card1:hover {
+background-color: #3e3e3e;
+padding: 5px;
+}
+
+.menu1 .card1 img{
+    margin: 5px;
+    margin-bottom: 10px;
+}
+.menu1 .card1 a {
+    background-color: brown;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 40px;
+    color: #000000;
+}
+
+.menu1 .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 20px;
+    color: floralwhite;
+}
+
+.menu1 .card2 img{
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.menu1 .card2 a {
+    background-color: brown;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 40px;
+    color: #000000;
+}
+
+.menu1 .card2:hover {
+    background-color: #3e3e3e;
+    padding: 5px;
+}
+
+.opciones{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: floralwhite;
+
+}
+
+#tragos:hover{
+    background-color: purple;
+    padding: 8px;
+}
+
+#aperitivos:hover{
+    background-color: purple;
+    padding: 8px;
+}
+
+#postres:hover{
+    background-color: purple;
+    padding: 8px;
+}
+.menu600px{
+    display: none;
+}
+
+.principal .flecha img{
+    width: 50px;
+}
+.principal .flecha {
+    position: sticky;
+    top: 50%;
+    z-index: index 1;
+}
+
+@media (max-width: 768px){ 
+    #imgin{
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #imgin1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .iconomenu img{
+        display: flex;
+        width: 100%;
+    }
+    .felizabar {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
+    .imginicio{
+        padding: none;
+    }
+    .nav a {
+        font-size: 27px;
+    }
+    #imgin{
+        display: none;
+    }
+    #imgin1{
+        display:none;
+    }
+    .felizabar{
+        width: 100%;
+    }
+    .contenedor .imginicio {
+        height: auto;
+        justify-content: center;
+        align-content: center;
+        padding-left: 50px;
+    }
+
+    .columna {
+        width: 100%;
+        display: flex;
+        flex: 100%;
+
+    }
+    .requi {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 3px;
+        margin-left: 60px;
+    }
+    .info{
+        width: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu1 .card2 {
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+        max-width: 150px;
+        margin: auto;
+        text-align: center;
+        align-content: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-bottom: 20px;
+        color: floralwhite;
+    }
+    .menu1 .card1 img {
+        max-width: 130px;
+        margin: 5px;
+        margin-bottom: 10px;
+    }
+    .menu1 .card1 a {
+        background-color: brown;
+        text-decoration: none;
+        padding: 8px;
+        font-size: 23px;
+        color: #000000;
+    }
+    .menu1 {
+        width: 100%;
+        margin-left: none;
+        display: flex;
+        align-content: center;
+    }
+    .menu .card {
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+        max-width: 500px;
+        margin: auto;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: floralwhite;
+    }
+    .menu .card img {
+        max-width: 200px;
+    }
+
+    .columna p{
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 600px){ 
+    #imgin{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #imgin{
+        display:none;
+    }
+    .nav a {
+        font-size: 20px;
+    }
+
+    #cierre{
+      display: none;  
+    }
+
+    .contenedor .imginicio{
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .felizabar{
+        padding: 5px;
+        width: 100%;
+    }
+    .requi{
+        width: 100%;
+    }
+    .reser {
+        display: none;
+    }
+    .reser2 img{
+        width:60% ;
+    }
+    .card1 img{
+        display: none;
+    }
+    .menu1 .card1 a{
+        font-size: 25px;
+    }
+    .opciones{
+        font-size: 30px;
+    }
+    .menu600px{
+        display: flex;
+        width: 100%;
+        align-content: center;
+    }
+    .menu1 .card2 {
+        width: 32%;
+    }    
+    .menu1 .card2 img {
+        width: 100px;
+    }
+    .menu1 .card2 a {
+        font-size: 20px;
+    }
+}
